@@ -28,6 +28,3 @@ E-School is fully optimized for:
 - **Online Courses**: Easy-to-browse course listings with start dates and seat availability.  
 - **Testimonials**: User feedback to enhance credibility.  
 - **Footer**: Includes course categories, terms, and useful links.  
-
-## 📸 Preview
-[E-School Preview](https://github.com/rohan26ir/E-School/blob/main/assets/e-school/e-school.png)  
