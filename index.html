@@ -12,7 +12,7 @@
 <body>
   <header  class=" ">
     <!-- Navbar -->
-    <section class="px-32">
+    <section class="px-4 md:px-32">
       <div class="flex justify-between items-center pt-4 pb-2">
         <!-- left side -->
         <div>
@@ -20,11 +20,11 @@
           src="./assets/icons/Logo.png" alt="">
         </div>
         <!-- right side -->
-        <div class="flex justify-center items-center gap-6">
-          <div><a href="#"><p>Books</p></a></div>
-          <div><a href="#"><p>Courses</p></a></div>
-          <div><a href="#"><p>Others</p></a></div>
-          <div><a href="#"><p>Blog</p></a></div>
+        <div class="flex justify-center items-center gap-2 md:gap-6">
+          <div class="hidden md:block"><a href="#"><p>Books</p></a></div>
+          <div class="hidden md:block"><a href="#"><p>Courses</p></a></div>
+          <div class="hidden md:block"><a href="#"><p>Others</p></a></div>
+          <div class="hidden md:block"><a href="#"><p>Blog</p></a></div>
           <div><a href="#"><p class="bg-[#21B573] text-white px-4 py-1 rounded-3xl ">Sing in</p></a></div>
         </div>
       </div>
@@ -33,7 +33,7 @@
 
     <!-- hero  -->
     <section class="bg-[#F0FFF0]">
-      <div class="flex justify-between gap-4 px-32 py-10">
+      <div class="flex flex-col-reverse md:flex-row justify-between gap-2 md:gap-4 px-10 md:px-32 py-10">
         <!-- left -->
         <div class="space-y-3">
           <p class="text-red-500 text-sm">Are you ready to Learn?</p>
@@ -56,7 +56,7 @@
 
   <main>
     <!-- card -->
-     <div class="flex justify-center  gap-10  -mt-10 ">
+     <div class="flex flex-col-reverse md:flex-row justify-center px-4 gap-10  md:-mt-10 ">
        <div class="p-10 bg-[#F8FFFB] rounded-lg flex flex-col justify-center items-center">
         <img class="h-20" 
         src="./assets/icons/book.png" alt="">
@@ -85,9 +85,9 @@
     <!-- card end -->
 
     <!-- Online Courses -->
-     <section class="px-32 py-10">
+     <section class="px-6 md:px-32 py-10">
       <h2 class="text-center text-4xl font-bold py-4">Online Courses</h2>
-      <div class="flex gap-5">
+      <div class="flex flex-col-reverse md:flex-row gap-5">
         <!-- 1 post card -->
         <div class="p-5 shadow-2xl rounded-3xl space-y-1">
           <img src="./assets/photos/Morder pyschology.png" alt="">
@@ -148,9 +148,9 @@
     <!-- Online Courses end -->
 
     <!-- Testimonial -->
-     <section class="px-32 py-10">
+     <section class="px-6 md:px-32 py-10">
        <h2 class="text-center text-4xl font-bold py-4">Testimonial</h2>
-      <div class="flex justify-center gap-4 items-center ">
+      <div class="flex flex-col md:flex-row justify-center gap-4 items-center ">
         <div>
           <img class="h-36" 
           src="./assets/photos/Man.png" alt="">
@@ -167,15 +167,15 @@
     <!-- Testimonial end -->
   </main>
 
-  <footer class="bg-[#282531] text-gray-300 py-8 px-24 mt-6">
-    <div class="flex justify-between mt-5">
+  <footer class="bg-[#282531] text-gray-300 py-8 px-6 md:px-24 mt-6">
+    <div class="flex flex-col md:flex-row justify-between mt-5">
       <!-- left -->
-      <div>
+      <div class="mb-6 md:block">
         <p>Millions of people of all ages and from around <br>
           the world are improving their lives with us</p>
       </div>
       <!-- right -->
-      <div class="flex justify-center gap-36">
+      <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-36">
         <div>
           <ul>
             <h3 class="font-bold text-white">Course</h3>
